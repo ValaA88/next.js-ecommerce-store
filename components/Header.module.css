@@ -1,12 +1,12 @@
 .header {
-  padding: 4rem 2rem;
+  padding: 4rem 6rem 2rem;
   flex: 1;
   display: flex;
-  gap: 30px;
+  gap: 50px;
   margin-left: 0px;
   margin-top: -40px;
-  background-color: rgba(142, 154, 226, 0.377);
+  background-color: rgb(8, 43, 27);
   align-items: center;
-
+  color: rgb(206, 233, 202);
   text-shadow: blanchedalmond;
 }

@@ -1,5 +1,21 @@
 .homePageImage {
   width: 100%;
+
+  filter: blur(5px) grayscale(70%);
+}
+
+.textBlock {
+  position: absolute;
+  bottom: 250px;
+  right: 600px;
+  color: rgb(8, 43, 24);
+  padding-left: 40px;
+  padding-right: 40px;
+
+  font-size: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+  background-color: rgba(121, 197, 131, 0.192);
 }
 
 .main {
@@ -28,7 +44,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #f5f8fa;
   text-decoration: none;
 }
 

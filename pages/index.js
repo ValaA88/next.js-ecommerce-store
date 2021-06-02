@@ -8,7 +8,11 @@ export default function Home() {
     <div>
       <Header />
       <div>
-        <img className={styles.homePageImage} src="./Model-Backgound.jpeg" />
+        <img className={styles.homePageImage} src="./Model-Background.jpeg" />
+        <div className={styles.textBlock}>
+          <h4>Aircrafts</h4>
+          <p>Make your own style</p>
+        </div>
       </div>
     </div>
   );
