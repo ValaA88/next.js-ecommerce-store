@@ -4,7 +4,7 @@ export const products = [
     name: 'Eurofighter Typhoon (single seater)',
     scale: 'Scale: 1:72',
     // quantity: 39 Euro,
-    image: '../image-eurofighter1.jpg',
+    image: ['../image-eurofighter1.jpg', '../image-eurofighter2.jpg'],
     overview:
       'Overview: Skill Level: 4 Scale: 1/72 Length: 23cm  Height: 7.63cm Wingspan: 17.5cm Parts: 162',
     price: 'Price: € 39',
@@ -16,7 +16,7 @@ export const products = [
     name: 'A-10 Warthog USAF',
     scale: 'Scale: 1:72',
     // quantity: 49 Euro,
-    image: '../image-a10.jpg',
+    image: ['../image-a10.jpg'],
     overview:
       'Overview: Skill Level: 4 Scale: 1/72 Length: 20cm  Height: 6.5cm Wingspan: 15.5cm Parts: 220',
     price: 'Price: € 45',
@@ -28,7 +28,7 @@ export const products = [
     name: 'Tornado GR. Mk. 1 SAAF',
     scale: 'Scale: 1:72',
     // quantity: 55 Euro,
-    image: '../image-tornado.jpg',
+    image: ['../image-tornado.jpg'],
     overview:
       'Overview: Skill Level: 4 Scale: 1/72 Length: 27cm  Height: 8.1cm Wingspan: 20.5cm Parts: 197',
     price: 'Price: € 59',
@@ -40,7 +40,7 @@ export const products = [
     name: 'Trumpeter - Russian MIG-29UB Fulcrum',
     scale: 'Scale: 1:72',
     // quantity: 28 Euro,
-    image: '../image-mig291.jpg',
+    image: ['../image-mig291.jpg', '../image-mig292.jpg'],
     overview:
       'Overview: Skill Level: 4 Scale: 1/72 Length: 32cm  Height: 7.5cm Wingspan: 16cm Parts: 182',
     price: 'Price: € 29',

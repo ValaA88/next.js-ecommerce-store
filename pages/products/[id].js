@@ -1,4 +1,6 @@
+import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 import React, { useState } from 'react';
+import { Carousel } from 'react-responsive-carousel';
 import Header from '../../components/Header';
 import styles from './model.module.css';
 
@@ -12,13 +14,26 @@ export default function ModelName({ model }) {
       <Header cart={count} />
       <div className={styles.container}>
         <div className={styles.allSingleProducts}>
-          <img className={styles.image} src={model.image} />
+          <Carousel
+            className={styles.image}
+            showStatus={false}
+            showThumbs={false}
+          >
+            {model.image.map((imageLink) => (
+              <img src={imageLink} />
+            ))}
+          </Carousel>
           {/* <div>This is a Name {model.id} component</div> */}
           <div className={styles.productDetailsSingleProduct}>
             <div>{model.name} </div>
             <div>{model.scale} </div>
             <div>{model.price}</div>
-            <button onClick={() => setCount(count + 1)}>Add to cart</button>
+            <button
+              className={styles.button}
+              onClick={() => setCount(count + 1)}
+            >
+              Add to cart
+            </button>
           </div>
         </div>
         <div className={styles.overview}>{model.overview}</div>

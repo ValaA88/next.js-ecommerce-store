@@ -9,7 +9,10 @@ export default function Products({ myProducts }) {
         return (
           <a className={styles.section} href={productLink}>
             <div>
-              <img className={styles.productsImage} src={product.image}></img>
+              <img
+                className={styles.productsImage}
+                src={product.image[0]}
+              ></img>
             </div>
             <div className={styles.productDetails}>
               <div className={styles.productDetail}>{product.name}</div>

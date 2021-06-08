@@ -45,3 +45,17 @@
   padding: 20px 126px;
   margin-top: 20px;
 }
+.button {
+  margin-top: 20px;
+  padding: 25px 10px;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 45px;
+  width: 240px;
+  font-size: 18px;
+}
+.button:hover {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: 400ms;
+  cursor: pointer;
+}

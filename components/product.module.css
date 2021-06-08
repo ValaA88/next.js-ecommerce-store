@@ -12,6 +12,12 @@
   border-style: solid;
   border-radius: 10px;
 }
+.section:hover {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transform: translateY(-4px);
+  transition: transform 500ms;
+  cursor: pointer;
+}
 
 .productDetails {
   margin-right: 0px;

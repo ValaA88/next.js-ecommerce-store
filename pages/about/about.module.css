@@ -1,0 +1,29 @@
+.aboutPage {
+  background-color: rgba(143, 145, 141, 0.726);
+}
+
+.backgroundImage {
+  width: 35%;
+  margin-top: 50px;
+  filter: blur(0px) grayscale(50%);
+  margin-left: 480px;
+  border-radius: 5px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  font-family: cursive;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 120px;
+  font-family: fantasy;
+}
