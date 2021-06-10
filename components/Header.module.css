@@ -10,3 +10,12 @@
   color: rgb(206, 233, 202);
   text-shadow: blanchedalmond;
 }
+.icon {
+  width: 40px;
+
+  /* transform: translate(-75px, 22px); */
+}
+.cart {
+  position: absolute;
+  right: 30px;
+}

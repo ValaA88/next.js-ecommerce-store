@@ -17,7 +17,7 @@ export default function Products({ myProducts }) {
             <div className={styles.productDetails}>
               <div className={styles.productDetail}>{product.name}</div>
               <div className={styles.productDetail}>{product.scale}</div>
-              <div className={styles.productPrice}>{product.price}</div>
+              <div className={styles.productPrice}>Price: €{product.price}</div>
             </div>
           </a>
         );
